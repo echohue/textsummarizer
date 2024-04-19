@@ -1,0 +1,43 @@
+body{
+    font-family: 'Jost';font-size: 22px;
+}
+.jumbotron{
+    background-color: aquamarine;
+}
+
+.original{
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.summary{
+    background-color: rgb(144, 226, 43);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sep{
+    display: flex;
+    flex-direction: row;
+}
+
+.origtxt{
+    background-color: blueviolet;
+    padding: 20px;
+
+}
+
+.summtxt{
+    background-color: rgb(144, 226, 43);
+    padding: 20px;
+
+}

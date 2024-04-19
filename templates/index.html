@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Summarizer</title>
+  <!-- Bootstrap CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel= "stylesheet" href = "static\style.css">
+  
+</head>
+<body>
+<div class="container">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Text Summarizer</h1>
+    <p class="lead">Helps you shorten your text.</p>
+  </div>
+</div>
+<form action = "/analyze" method = "POST">
+    <textarea name = "rawtext" class = "form-control" rows = 3 placeholder="Enter your text for extractive summary"></textarea>
+    <button type="submit" class="btn btn-primary" value="Submit">Extractive Summarizer</button>
+    
+</form>
+<form action = "/analyze1" method = "POST">
+    <textarea name = "rawtext1" class = "form-control" rows = 3 placeholder="Enter your text for abstractive summary"></textarea>
+    <button type="submit" class="btn btn-primary" value="Submit">Abstractive Summarizer</button>
+    
+</form>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
